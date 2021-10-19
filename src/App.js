@@ -36,6 +36,14 @@ const App = function (props) {
         <PortraitsCollection counter={updateCounter} />
         <Scoreboard total={count} best={bestScore} />
       </div>
+      <footer>
+        <a href="https:github.com/paposeco/" alt="github">
+          <span>
+            <i className="lab la-github"></i>
+          </span>
+          Fabi
+        </a>
+      </footer>
     </div>
   );
 };

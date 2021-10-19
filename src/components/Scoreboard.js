@@ -3,8 +3,8 @@ import React from "react";
 const Scoreboard = function (props) {
   return (
     <div id="scoreboard">
-      <p>Score: {props.total}</p>
-      <p>Best Score: {props.best}</p>
+      <h2>Score: {props.total}</h2>
+      <h2>Best Score: {props.best}</h2>
     </div>
   );
 };
