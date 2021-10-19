@@ -1,0 +1,18 @@
+body {
+  width: 80vw;
+  margin: auto;
+}
+
+#collection {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.heroename {
+  text-align: center;
+}
+
+.heroe > img {
+  width: max-content;
+  margin: auto;
+}
