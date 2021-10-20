@@ -25,20 +25,19 @@ body {
   justify-items: center;
 }
 
-/* não consigo meter isto bonito */
 .heroe {
   width: 125px;
   border: 1px solid white;
   border-radius: 50px;
   background-color: white;
-  opacity: 1;
-  transition: all 2s ease-in-out;
+  opacity: 0.5;
+  transition: opacity 0.2s ease-in-out;
 }
 
 .heroe:hover {
   cursor: pointer;
-  border: solid 1px #ffd9be;
   border-radius: 50px;
+  box-shadow: 2px 2px 4px #ffd9be, -1px -1px 2px #ffd9be;
 }
 
 .heroename {
@@ -50,6 +49,8 @@ body {
 .heroe > img {
   border-radius: 50px;
   width: 100%;
+  transform: scaleX(1);
+  transition: transform 0.5s ease-in-out;
 }
 
 #scoreboard {
@@ -84,4 +85,9 @@ a:visited {
 
 header {
   border-bottom: 2px solid #ffbc8b;
+}
+header > h1 {
+  color: white;
+  background-color: #ffad72;
+  padding: 20px;
 }

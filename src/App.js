@@ -10,6 +10,13 @@ const App = function (props) {
 
   const updateCounter = function (event) {
     const clicked = event.target.alt;
+    const clickeddiv = event.target;
+    console.log(clickeddiv);
+    clickeddiv.style.transform = "scaleX(-1)";
+    setTimeout(updateLater, 500, clicked);
+  };
+
+  const updateLater = function (clicked) {
     if (clickedPortraits.includes(clicked)) {
       if (count > bestScore) {
         setBestScore(count);
@@ -22,6 +29,13 @@ const App = function (props) {
       setClickedPortraits(clickedPortraits.concat(clicked));
     }
   };
+
+  useEffect(() => {
+    const heroedivs = document.querySelectorAll(".heroe");
+    heroedivs.forEach((div) => {
+      div.style.opacity = 1;
+    });
+  });
 
   return (
     <div className="App">
