@@ -11,7 +11,6 @@ const App = function (props) {
   const updateCounter = function (event) {
     const clicked = event.target.alt;
     const clickeddiv = event.target;
-    console.log(clickeddiv);
     clickeddiv.style.transform = "scaleX(-1)";
     setTimeout(updateLater, 500, clicked);
   };
