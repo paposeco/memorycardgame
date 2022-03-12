@@ -1,5 +1,7 @@
 # Memory Card Game for The Odin Project - Overwatch Edition
 
+[Live Demo](https://paposeco.github.io/memorycardgame/)
+
 This is a simple memory card game with Overwatch Heroes. The purpose of this exercise was to practice React. It was a very quick project. Suspiciously quick to be honest.
 
 ## Features
