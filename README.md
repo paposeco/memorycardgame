@@ -2,6 +2,8 @@
 
 [Live Demo](https://paposeco.github.io/memorycardgame/)
 
+![overwatch memory game](https://github.com/paposeco/memorycardgame/assets/13892562/797fe82d-a1ef-4268-8c26-a0d1d93b0eea)
+
 This is a simple memory card game with Overwatch Heroes. The purpose of this exercise was to practice React. It was a very quick project. Suspiciously quick to be honest.
 
 ## Features
